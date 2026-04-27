@@ -144,20 +144,6 @@ https://ws-consultoria.netlify.app/
 
 ---
 
-## 📂 Repositório:
-
-🔗 **Código-fonte:**  
-(https://github.com/dvsxx11/Site-Wsconsultoria.git)
----
-
-## 🤝🏻 Cliente Real:
-
-Projeto desenvolvido para cliente real.
-
-📄 Comprovação:
-- *Adicionar evidência (contrato, conversa ou print)*
-
----
 
 ## 🎥 Apresentação
 
@@ -189,7 +175,3 @@ Este projeto foi desenvolvido com foco em simular um cenário real de desenvolvi
 🎓 Engenharia de Software  
 
 ---
-
-## 📄 Licença
-
-Projeto para fins acadêmicos e profissionais.
