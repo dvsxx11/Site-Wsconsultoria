@@ -1,0 +1,151 @@
+/* Estrutura compartilhada das seções */
+
+.section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(
+    to bottom,
+    rgba(201,160,61,0.2) 0%,
+    rgba(201,160,61,0.08) 40%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #C9A03D,
+    #DAB45F,
+    #F0C040,
+    #DAB45F,
+    #C9A03D,
+    transparent
+  );
+  border-radius: 2px;
+}
+
+.hero::before,
+.hero::after {
+  display: none;
+}
+
+.section, .section--alt {
+  background: #5E311A;
+}
+
+.section--alt {
+  background: #4A2812;
+}
+
+/* Sobre */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.check-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.check-list li {
+  color: #D4C5B5;
+}
+
+.about__image-wrap {
+  position: relative;
+}
+
+.about__image {
+  aspect-ratio: 4/5;
+  border-radius: 1.5rem;
+  background: var(--gradient);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Serviços */
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.service-card {
+  background: #915B26;
+  border: none;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  background: #A87130;
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.service-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.75rem;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.service-card__icon i {
+  color: #FFFFFF;
+  font-size: 1.3rem;
+}
+

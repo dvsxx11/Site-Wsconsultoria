@@ -1,4 +1,7 @@
+// Conteúdo dinâmico do rodapé
 document.getElementById("year").innerText = new Date().getFullYear();
+
+// Navegação mobile
 const menuBtn = document.getElementById("menuToggle");
 const navMenu = document.getElementById("nav");
 menuBtn.addEventListener("click", function () {

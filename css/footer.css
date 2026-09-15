@@ -1,0 +1,125 @@
+/* Rodapé e redes sociais */
+
+footer {
+  border-top: 1px solid rgba(201,160,61,0.3);
+  padding: 2.5rem 0;
+  background: #4A2812;
+  position: relative;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(to bottom, transparent, rgba(201,160,61,0.1));
+  pointer-events: none;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 0.85rem;
+  color: #D4C5B5;
+}
+
+.footer__inner a {
+  margin-left: 1.25rem;
+  transition: color 0.2s;
+  color: #D4C5B5;
+}
+
+.footer__inner a:hover {
+  color: #C9A03D;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__copy {
+  color: #D4C5B5;
+  font-size: 0.9rem;
+}
+
+.footer__line {
+  width: 100%;
+  max-width: 420px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201,160,61,0.9),
+    rgba(218,180,95,1),
+    rgba(201,160,61,0.9),
+    transparent
+  );
+  border-radius: 999px;
+  margin-top: 0.2rem;
+  box-shadow: 0 0 12px rgba(201,160,61,0.35);
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer__links a {
+  color: #D4C5B5;
+  transition: 0.3s;
+}
+
+.footer__links a:hover {
+  color: #C9A03D;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.6rem;
+}
+
+.social {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(201,160,61,0.2);
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.social:hover {
+  transform: translateY(-3px);
+}
+
+.social--github {
+  color: #FFFFFF;
+}
+
+.social--linkedin {
+  color: #0A66C2;
+}
+
+.social--github:hover {
+  border-color: #FFFFFF;
+  box-shadow: 0 8px 20px rgba(255,255,255,0.2);
+}
+
+.social--linkedin:hover {
+  border-color: #0A66C2;
+  box-shadow: 0 8px 20px rgba(10,102,194,0.25);
+}
+

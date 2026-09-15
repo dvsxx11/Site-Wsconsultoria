@@ -1,0 +1,55 @@
+/* Cabeçalho e navegação */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(75, 40, 18, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  background: linear-gradient(135deg, #C9A03D, #DAB45F);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav a {
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  opacity: 0.8;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #C9A03D;
+  opacity: 1;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
