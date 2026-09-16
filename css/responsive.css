@@ -18,7 +18,7 @@
   .contact__form {
     padding: 2.5rem;
   }
-  
+
   .hero__stats {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -39,9 +39,9 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background: #4A2812;
+    background: #4a2812;
     padding: 1.5rem;
-    border-bottom: 1px solid rgba(201,160,61,0.3);
+    border-bottom: 1px solid rgba(201, 160, 61, 0.3);
     gap: 1rem;
   }
 
@@ -64,23 +64,23 @@
   .hero__stats {
     gap: 0.8rem;
   }
-  
+
   .hero__stats strong {
     font-size: 1.3rem;
   }
-  
+
   .hero__stats span {
     font-size: 0.6rem;
   }
-  
+
   .section::after {
     width: 80px;
   }
-  
+
   .contact__buttons {
     flex-direction: column;
   }
-  
+
   .contact__buttons .btn--whatsapp,
   .contact__buttons .btn--instagram {
     justify-content: center;
@@ -99,5 +99,4 @@
   .footer__left {
     align-items: center;
   }
-
 }

@@ -10,19 +10,19 @@
 }
 
 .contact__info {
-  background: linear-gradient(135deg, #6B3A1F, #4A2812);
+  background: linear-gradient(135deg, #6b3a1f, #4a2812);
   padding: 3.5rem;
 }
 
 .contact__info h2 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contact__info p {
   opacity: 0.9;
   max-width: 380px;
   margin-bottom: 2rem;
-  color: #D4C5B5;
+  color: #d4c5b5;
 }
 
 .contact__list {
@@ -31,12 +31,12 @@
   gap: 1rem;
   margin-bottom: 2rem;
   font-size: 0.95rem;
-  color: #D4C5B5;
+  color: #d4c5b5;
 }
 
 .contact__list i {
   margin-right: 8px;
-  color: #C9A03D;
+  color: #c9a03d;
 }
 
 .contact__buttons {
@@ -47,39 +47,43 @@
 }
 
 .contact__buttons .btn--whatsapp {
-  background: #25D366;
-  color: #FFFFFF;
+  background: #25d366;
+  color: #ffffff;
   border: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.85rem 1.5rem;
   font-weight: 600;
-  transition: transform 0.3s, background 0.3s;
+  transition:
+    transform 0.3s,
+    background 0.3s;
 }
 
 .contact__buttons .btn--whatsapp:hover {
-  background: #128C7E;
+  background: #128c7e;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(37,211,102,0.3);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
 }
 
 .contact__buttons .btn--instagram {
-  background: linear-gradient(135deg, #833AB4, #E1306C, #F56040);
-  color: #FFFFFF;
+  background: linear-gradient(135deg, #833ab4, #e1306c, #f56040);
+  color: #ffffff;
   border: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.85rem 1.5rem;
   font-weight: 600;
-  transition: transform 0.3s, background 0.3s;
+  transition:
+    transform 0.3s,
+    background 0.3s;
 }
 
 .contact__buttons .btn--instagram:hover {
-  background: linear-gradient(135deg, #6B2A8E, #C01D58, #D94A2A);
+  background: linear-gradient(135deg, #6b2a8e, #c01d58, #d94a2a);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(225,48,108,0.3);
+  box-shadow: 0 8px 25px rgba(225, 48, 108, 0.3);
 }
 
 .contact__buttons .btn--whatsapp i,
@@ -101,7 +105,7 @@
   gap: 0.5rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contact__form input,
@@ -109,11 +113,13 @@
   font-family: inherit;
   font-size: 1rem;
   padding: 1rem 1.2rem;
-  border: 1px solid rgba(201,160,61,0.3);
+  border: 1px solid rgba(201, 160, 61, 0.3);
   border-radius: 0.8rem;
-  background: #FFFFFF;
+  background: #ffffff;
   outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .contact__form input {
@@ -127,8 +133,8 @@
 
 .contact__form input:focus,
 .contact__form textarea:focus {
-  border-color: #C9A03D;
-  box-shadow: 0 0 0 3px rgba(201,160,61,0.15);
+  border-color: #c9a03d;
+  box-shadow: 0 0 0 3px rgba(201, 160, 61, 0.15);
 }
 
 .contact__form button {
@@ -145,4 +151,3 @@
   margin-top: 1rem;
   filter: grayscale(20%) contrast(1.05);
 }
-

@@ -1,16 +1,16 @@
 /* Tema, normalização e componentes compartilhados */
 
 :root {
-  --primary: #6B3A1F;
-  --primary-dark: #4A2812;
-  --accent: #C9A03D;
-  --accent-light: #DAB45F;
-  --text-light: #FFFFFF;
-  --muted: #D4C5B5;
+  --primary: #6b3a1f;
+  --primary-dark: #4a2812;
+  --accent: #c9a03d;
+  --accent-light: #dab45f;
+  --text-light: #ffffff;
+  --muted: #d4c5b5;
   --border: rgba(255, 255, 255, 0.15);
-  --gradient: linear-gradient(135deg, #6B3A1F 0%, #4A2812 60%, #C9A03D 100%);
-  --shadow-lg: 0 20px 60px -20px rgba(0,0,0,0.5);
-  --shadow-card: 0 10px 30px rgba(0,0,0,0.25);
+  --gradient: linear-gradient(135deg, #6b3a1f 0%, #4a2812 60%, #c9a03d 100%);
+  --shadow-lg: 0 20px 60px -20px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -24,9 +24,9 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: "Inter", system-ui, sans-serif;
   color: var(--text-light);
-  background: #6B3A1F;
+  background: #6b3a1f;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -45,11 +45,13 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3 {
-  font-family: 'Space Grotesk', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", sans-serif;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h2 {
@@ -64,11 +66,11 @@ h2 {
 }
 
 .muted {
-  color: #D4C5B5;
+  color: #d4c5b5;
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #C9A03D, #DAB45F);
+  background: linear-gradient(135deg, #c9a03d, #dab45f);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -93,11 +95,15 @@ h2 {
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
-  background: linear-gradient(135deg, rgba(201,160,61,0.15), rgba(0,0,0,0.3));
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    rgba(201, 160, 61, 0.15),
+    rgba(0, 0, 0, 0.3)
+  );
   border: 1px solid rgba(201, 160, 61, 0.5);
   backdrop-filter: blur(6px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
 
@@ -111,7 +117,9 @@ h2 {
   font-size: 0.9rem;
   border: none;
   cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .btn:hover {
@@ -120,20 +128,20 @@ h2 {
 
 .btn--primary {
   background: transparent;
-  color: #FFFFFF;
-  border: 1px solid rgba(255,255,255,0.2);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(6px);
 }
 
 .btn--primary:hover {
-  background: rgba(201,160,61,0.2);
-  color: #C9A03D;
-  box-shadow: 0 8px 25px rgba(201,160,61,0.4);
+  background: rgba(201, 160, 61, 0.2);
+  color: #c9a03d;
+  box-shadow: 0 8px 25px rgba(201, 160, 61, 0.4);
 }
 
 .btn--ghost {
-  background: #FFFFFF;
-  color: #6B3A1F;
+  background: #ffffff;
+  color: #6b3a1f;
   border: 1px solid var(--border);
 }
 
@@ -146,4 +154,3 @@ h2 {
   width: 100%;
   justify-content: center;
 }
-

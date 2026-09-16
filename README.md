@@ -41,7 +41,6 @@ O site foi criado para apresentar a empresa, seus principais serviços e seus ca
 └── index.html           # Página principal
 ```
 
-
 ## 🚀 Hospedagem
 
 O projeto está hospedado na **Netlify**, com publicação contínua e acesso pelo endereço:

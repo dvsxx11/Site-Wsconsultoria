@@ -4,7 +4,14 @@
   position: relative;
   overflow: hidden;
   padding: 6rem 0 8rem;
-  background: linear-gradient(to right, rgba(75,40,18,0.85) 30%, rgba(75,40,18,0.4) 70%, rgba(75,40,18,0.1) 100%), url('../img/casa.jpeg');
+  background:
+    linear-gradient(
+      to right,
+      rgba(75, 40, 18, 0.85) 30%,
+      rgba(75, 40, 18, 0.4) 70%,
+      rgba(75, 40, 18, 0.1) 100%
+    ),
+    url("../img/casa.jpeg");
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
@@ -15,7 +22,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 50%, rgba(201,160,61,0.1), transparent 60%);
+  background: radial-gradient(
+    circle at 80% 50%,
+    rgba(201, 160, 61, 0.1),
+    transparent 60%
+  );
   pointer-events: none;
 }
 
@@ -47,7 +58,7 @@
 
 .hero__subtitle {
   font-size: 1.15rem;
-  color: #D4C5B5;
+  color: #d4c5b5;
   max-width: 600px;
   margin-bottom: 2.5rem;
 }
@@ -69,14 +80,13 @@
 
 .hero__stats strong {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero__stats span {
   font-size: 0.75rem;
-  color: #D4C5B5;
+  color: #d4c5b5;
 }
-
